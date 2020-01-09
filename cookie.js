@@ -1,4 +1,4 @@
-<script>
+
     class Cookie{
         set(sName, sValue = "", expire = null,path = "",domaine = "") {
             if(expire > 0 || expire == null){
@@ -26,4 +26,3 @@
             return true;
         }
     }
-</script>
